@@ -1113,23 +1113,114 @@ th {
   
   @media (min-width: 320px) and (max-width: 480px) {
 
-
-
-
     .header {
-        width: 80rem;
+    width: 79rem;
+    height: 10rem;}
 
+    .hmat {    margin-left: -80px
     }
 
-    .header {
-        width: 80rem;
-    }
-
-    .header {
-        width: 80rem;
+    a {
+        margin-left: 13px;
+        font-size: 35px;
     }
 
     .bg {
+        width: 79rem;
+    }
+
+    .cont-one {
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        margin-left: 16rem;
+    }
+
+    .cont-one .one {
+        height: 50rem;
+        width: 50rem;
+    }
+
+    .cont-one img {
+        width: 50rem;
+        height: 45rem;
+    }
+    
+    .cont-one button {
+
+        margin-top: -20px;
+        margin-left: 145px;
+        width: 500px;
+        height: 100px;
+    }
+
+    .cont-one h5 {
+        font-size: 50px;
+    }
+
+    .content {
+        margin-left: 2rem;
+    }
+
+    .cont-two {
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 16rem
+    }
+
+    .cont-two .two {
+
+        height: 850px;
+        width: 720px;
+        margin-left: 10px;
+    }
+
+    .cont-two img {
+        width: 700px;
+    }
+
+    .cont-two h6{
+        font-size: xxx-large;
+        margin-left: 19rem;
+    }
+
+    .cont-two h5{
+        font-size: 2rem;
+    margin-left: 150px;
+    }
+
+    .cont-two i{
+        margin-left: 5rem;
+        font-size: xx-large;
+    }
+
+    .cont-two h4{
+        margin-left: 6rem;
+        font-size: xx-large;
+    }
+
+    .cont-two p{    margin-left: 500px}
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+    .ban-four .two {
+        width: 490px;}
+
+
+
+    /* .bg {
         width: 80rem;
     }
 
@@ -1260,5 +1351,5 @@ th {
     .ban-four .two {
 
         width: 583px;
-    }
+    } */
 }
