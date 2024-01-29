@@ -945,7 +945,125 @@ th {
     ##Screen = B/w 1025px to 1280px
   */
   
-  @media (min-width: 1025px) and (max-width: 1280px) {
+  @media (min-width: 1024px) and (max-width: 1280px) {
+
+    .header {
+        width: 81rem;
+    }
+
+    .bg {
+        width: 81rem;
+    }
+    
+    .cont-one {
+        width: 81rem;
+    }
+    .content {
+        width: 81rem;
+    }
+    .cont-two {
+        width: 81rem;
+    }
+    .cont-three {width: 81rem;
+    }
+
+    .ban-two {
+        width: 81rem;
+    }
+
+    .contenttwo {
+        width: 81rem;
+    }
+
+    .cont-four {
+        width: 81rem;
+    } 
+
+    .cont-five {           
+         width: 81rem;
+    } 
+    .ban-six {        
+        width: 81rem;
+        } 
+
+    .ban-five {   
+         width: 81rem;
+    }
+
+    .ban-six {      
+          width: 81rem;
+    } 
+    .footer {    
+        width: 81rem;
+    } 
+    .banimg {    
+        width: 81rem;
+    }    
+
+    .cimg {         
+          width: 81rem;
+    }    
+    .cthree  {
+            width: 81rem;
+    }    
+    .ctwo {       
+          width: 81rem;
+    } 
+    .cthree {     
+           width: 81rem;
+    }    
+
+    .cfour {      
+          width: 81rem;
+    }    
+    .bbanner {    
+            width: 81rem;
+    }   
+    .bcont-one {
+        width: 81rem;
+    }
+    .bcont-two {
+        width: 81rem;
+    }
+    .bcont-three {      
+          width: 81rem;
+    }
+
+    .bcont-five {   
+         width: 81rem;
+    }
+    .bcont-six {    
+         width: 81rem;
+    }
+    .symbol {   
+          width: 81rem;
+    }
+    .abanner {   
+           width: 81rem;
+    }
+    .acont-one { 
+         width: 81rem;
+    }
+    .acontent { 
+         width: 81rem;
+    }
+    .cban-one {    
+         width: 81rem;
+    }
+    .cban-two {    
+         width: 81rem;
+    }
+    .contactcontainer {    
+          width: 81rem;
+    }
+    .cartDeatils {  width: 70rem;
+    }
+    .product { width: 95rem;
+
+    }
+
+
+
     
 
     
