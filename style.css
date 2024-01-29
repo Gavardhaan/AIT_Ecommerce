@@ -293,6 +293,11 @@ a{
     padding-left: 40px;
     margin-left: 50px;
 }
+
+.ban-six .mat2 {
+    margin-top: -140px;
+    margin-left: 70rem;
+}
 .mat2 input {
     padding: 20px 180px 20px 40px;;
     background-color: rgb(241, 237, 237);
@@ -339,95 +344,7 @@ a{
     font-size:30px;
 }
 
-.cimg{
-    display:flex;
-    gap:30px;
-    justify-content:center;
-}
- .cimg img{
-    width:250px;
-    border-radius: 20px;
-}
-.cimg .imgo{
-    border:1px solid #ece5e5;
-    height:310px;
-    width:250px;
-    padding:15px;
-    border-radius:20px;
-}
-.cimg p{
-    margin-left:210px;
-    margin-top:-15px;
-}
 
-.ctwo{
-    display:flex;
-    gap:30px;
-    justify-content:center;
-    margin-top:30px;
-}
-.ctwo img{
-    width:250px;
-    border-radius:20px;
-    
-}
-.ctwo .timg{
-    border:1px solid #ece5e5;
-    height:320px;
-    width:250px;
-    padding:15px;
-    border-radius:20px;
-}
-.ctwo p{
-    margin-left:210px;
-    margin-top:-15px;
-}
-
-.cthree{
-    display:flex;
-    gap:30px;
-    justify-content:center;
-    margin-top:30px;
-}
-.cthree img{
-    width:250px;
-    border-radius:20px;
-}
-.cthree .timg{
-    border:1px solid #ece5e5;
-    height:320px;
-    width:250px;
-    padding:15px;
-    border-radius:20px;
-    
-}
-.cthree p{
-    margin-left:210px;
-    margin-top:-15px;
-}
-
-
-.cfour{
-    display:flex;
-    gap:30px;
-    justify-content:center;
-    margin-top:30px;
-}
-.cfour img{
-    width:250px;
-    border-radius:20px;
-}
-.cfour .fimg{
-    border:1px solid #ece5e5;
-    height:320px;
-    width:250px;
-    padding:15px;
-    border-radius:20px;
-}
-.cfour p{
-    margin-left:210px;
-    margin-top:-15px;
-}
 
 .symbol {
     display: flex;
@@ -740,6 +657,7 @@ a{
     display:flex;
     gap:40px;
     justify-content: center;
+    margin-bottom: 10rem;
 }
 .cban-two .cone{
     padding-top:200px;
@@ -748,13 +666,13 @@ a{
     margin-top: -17px;
     margin-left: 25px;
 }
-.cban-two .ctwo{
+/* .cban-two .ctwo{
     background-image: url(./Screenshot\ 2024-01-16\ 21362954BVHJVH.png);
     background-repeat:no-repeat;
     background-repeat: 100% 90%;
     height:600px;
     width:600px;
-}
+} */
 
 .contactcontainer{
     display:flex;
@@ -1194,16 +1112,6 @@ th {
 
   }
   
-  /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
-    
-
-    
-  }
   
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -1213,7 +1121,7 @@ th {
   @media (min-width: 320px) and (max-width: 480px) {
 
     .header {
-    width: 79rem;
+    width: 80rem;
     height: 10rem;}
 
     .hmat {    margin-left: -80px
@@ -1489,94 +1397,11 @@ th {
         width: 80rem;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-/* 0rem;
-    }
-
-    .cont-one {
-        width: 80rem;
-    }
-
-    .content {
-        width: 80rem;
-    }
-
-    .hmat {
-        font-size: xxx-large;
-    }
-
-    .cont-two {
-        width: 80rem;
-    }
-
-    .cont-three {
-        width: 80rem;
-    }
-
-    .ban-two {
-        width: 80rem;
-    }
-
-    .contenttwo {
-        width: 80rem;
-    }
-
-    .cont-four {
-        width: 80rem;
-    }
-
-    .cont-five {
-        width: 80rem;
-    }
-
-    .ban-five {
-        width: 80rem;
-    }
-
-    .ban-six {
-        width: 80rem;
-    }
-
-    .footer {
-        width: 80rem;
-    }
-
     .banimg {
         width: 80rem;
     }
 
-    .cimg {
-        width: 80rem;
-    }
-
-    .ctwo {
-        width: 80rem;
-    }
-
-    .cthree {
-        width: 80rem;
-    }
-
-    .cfour {
-        width: 80rem;
-    }
-
-    .symbol {
-        width: 80rem;
-    }
-
-    .bbanner {
-        width: 80rem;
+    .bbanner { width: 80rem;
     }
 
     .bcont-one {
@@ -1586,7 +1411,6 @@ th {
     .bcont-two {
         width: 80rem;
     }
-
     .bcont-three {
         width: 80rem;
     }
@@ -1594,41 +1418,59 @@ th {
     .bcont-five {
         width: 80rem;
     }
-
     .bcont-six {
         width: 80rem;
     }
-
+    .symbol{
+        width: 75rem;
+    }
     .abanner {
         width: 80rem;
     }
-
     .acont-one {
+        flex-direction: column;
         width: 80rem;
+        margin-left: 17rem;
     }
-
-    .contactcontainer {
-        width: 80rem;
-    }
-
     .cban-one {
-        width: 80rem;
-    }
+        width: 80rem;}
 
-    .cban-two {
-        width: 80rem;
+    .cartTable{
+        font-size: x-large;
     }
-
     .cartDeatils {
-        width: 80rem;
+        margin-left: 35rem;
+    font-size: x-large;
+    }
+    .cban-two { margin-left: 30rem;
+        font-size: x-large;
     }
 
-    .product {
-        width: 90rem;
+    .cone h2 {
+        width: 40rem;
+    }
+    .contactcontainer {
+        margin-left: 10rem;
+        width: 71rem;
+    }
+    .contactcontainer .contactform {
+        font-size: x-large;
     }
 
-    .ban-four .two {
+    .contactcontainer .contacttwo {
+        font-size: large;
+        margin-top: -5rem;
+    }
 
-        width: 583px;
-    } */
-} */
+
+
+
+
+
+
+
+
+
+
+
+  }
