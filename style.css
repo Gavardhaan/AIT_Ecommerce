@@ -866,113 +866,116 @@ th {
   @media (min-width: 1024px) and (max-width: 1280px) {
 
     .header {
-        width: 81rem;
+        width: 82rem;
     }
 
     .bg {
-        width: 81rem;
+        width: 82rem;
     }
     
     .cont-one {
-        width: 81rem;
+        width: 82rem;
     }
     .content {
-        width: 81rem;
+        width: 82rem;
     }
     .cont-two {
-        width: 81rem;
+        width: 82rem;
     }
-    .cont-three {width: 81rem;
+    .cont-three {width: 82rem;
     }
 
     .ban-two {
-        width: 81rem;
+        width: 82rem;
     }
 
     .contenttwo {
-        width: 81rem;
+        width: 82rem;
     }
 
     .cont-four {
-        width: 81rem;
+        width: 82rem;
     } 
 
     .cont-five {           
-         width: 81rem;
+         width: 82rem;
     } 
     .ban-six {        
-        width: 81rem;
+        width: 82rem;
+        } 
+    .ban-six .mat2{margin-top: -100px;
+            margin-left: 48rem;
         } 
 
     .ban-five {   
-         width: 81rem;
+         width: 82rem;
     }
 
     .ban-six {      
-          width: 81rem;
+          width: 82rem;
     } 
     .footer {    
-        width: 81rem;
+        width: 82rem;
     } 
     .banimg {    
-        width: 81rem;
+        width: 82rem;
     }    
 
     .cimg {         
-          width: 81rem;
+          width: 82rem;
     }    
     .cthree  {
-            width: 81rem;
+            width: 82rem;
     }    
     .ctwo {       
-          width: 81rem;
+          width: 82rem;
     } 
     .cthree {     
-           width: 81rem;
+           width: 82rem;
     }    
 
     .cfour {      
-          width: 81rem;
+          width: 82rem;
     }    
     .bbanner {    
-            width: 81rem;
+            width: 82rem;
     }   
     .bcont-one {
-        width: 81rem;
+        width: 82rem;
     }
     .bcont-two {
-        width: 81rem;
+        width: 82rem;
     }
     .bcont-three {      
-          width: 81rem;
+          width: 82rem;
     }
 
     .bcont-five {   
-         width: 81rem;
+         width: 82rem;
     }
     .bcont-six {    
-         width: 81rem;
+         width: 82rem;
     }
     .symbol {   
-          width: 81rem;
+          width: 82rem;
     }
     .abanner {   
-           width: 81rem;
+           width: 82rem;
     }
     .acont-one { 
-         width: 81rem;
+         width: 82rem;
     }
     .acontent { 
-         width: 81rem;
+         width: 82rem;
     }
     .cban-one {    
-         width: 81rem;
+         width: 82em;
     }
     .cban-two {    
-         width: 81rem;
+         width: 82rem;
     }
     .contactcontainer {    
-          width: 81rem;
+          width: 82rem;
     }
     .cartDeatils {  width: 70rem;
     }
@@ -996,21 +999,21 @@ th {
   @media (min-width: 426px) and (max-width: 768px)   {
 
     .header {
-        width: 81rem;
+        width: 85rem;
     }
 
     .bg {
-        width: 81rem;
+        width: 85rem;
     }
     
     .cont-one {
-        width: 81rem;
+        width: 85rem;
     }
     .content {
         width: 81rem;
     }
     .cont-two {
-        width: 81rem;
+        width: 85rem;
     }
     .cont-three {width: 81rem;
     }
@@ -1031,7 +1034,7 @@ th {
          width: 81rem;
     } 
     .ban-six {        
-        width: 81rem;
+        width: 85rem;
         } 
 
     .ban-five {   
@@ -1041,6 +1044,11 @@ th {
     .ban-six {      
           width: 81rem;
     } 
+
+    .ban-six .mat2{margin-top: -100px;
+        margin-left: 48rem;
+
+    }
     .footer {    
         width: 81rem;
     } 
