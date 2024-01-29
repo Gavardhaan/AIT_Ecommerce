@@ -229,6 +229,7 @@ a{
     background-image: url(./Assets/img/banner/b17.jpg);
     background-repeat: no-repeat;
     background-size:100% 100%;
+    margin-left: 150px;
     height:300px;
     width:600px;
 }
@@ -236,6 +237,7 @@ a{
     background-image: url(./Assets/img/banner/b10.jpg);
     background-repeat: no-repeat;
     background-size:100% 100%;
+    margin-left: 700px;
     height:300px;
     width:600px;
 }
@@ -937,17 +939,6 @@ th {
 
 
 
-
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-  
-
-    
-  }
   
   /* 
     ##Device = Laptops, Desktops
@@ -960,16 +951,6 @@ th {
     
   }
   
-  /* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
-    
-
-    
-  }
   
   /* 
     ##Device = Tablets, Ipads (landscape)
@@ -1199,29 +1180,209 @@ th {
         font-size: xx-large;
     }
 
-    .cont-two p{    margin-left: 500px}
+    .cont-two p{    
+        margin-left: 500px}
 
+    .cont-three{
+        
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 16rem
+    }
 
-  
+    .cont-three .three {
+        height: 850px;
+        width: 720px;
+        margin-left: 10px;
+    }
 
+    .cont-three img {
+        width: 700px;
+    }
 
+    .cont-three h6{
+        font-size: xxx-large;
+        margin-left: 19rem;
+    }
 
+    .cont-three h5{
+        font-size: 2rem;
+    margin-left: 150px;
+    }
+    
+    .cont-three .three {
+        height: 900px;
+    }
 
+    .cont-three i{
+        margin-left: 5rem;
+        font-size: xx-large;
+    }
 
+    .cont-three h4{
+        margin-left: 6rem;
+        font-size: xx-large;
+    }
 
+    .cont-three p{    
+        margin-left: 500px}
 
+    .ban-two {
+            width: 80rem;
+    }
 
+    .ban-two .mat {
+        padding-top: 40px;
+        font-size: 26px;
+    }
 
+    .ban-two button {
+        height: 40px;
+        width: 200px;
+        font-size: 25px;
+    }
 
+    .cont-four{
+        
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 16rem
+    }
 
+    .cont-four .four {
+        height: 850px;
+        width: 720px;
+        margin-left: 10px;
+    }
+
+    .cont-four img {
+        width: 700px;
+    }
+
+    .cont-four h6{
+        font-size: xxx-large;
+        margin-left: 19rem;
+    }
+
+    .cont-four h5{
+        font-size: 2rem;
+    margin-left: 150px;
+    }
+    
+
+    .cont-four i{
+        margin-left: 5rem;
+        font-size: xx-large;
+    }
+
+    .cont-four h4{
+        margin-left: 6rem;
+        font-size: xx-large;
+    }
+
+    .cont-four p{    
+        margin-left: 500px
+    }
+
+    .cont-five{
+        
+        flex-direction: column;
+        margin-top: 50px;
+        margin-left: 16rem
+    }
+
+    .cont-five .five {
+        height: 850px;
+        width: 720px;
+        margin-left: 10px;
+    }
+
+    .cont-five img {
+        width: 700px;
+    }
+
+    .cont-five h6{
+        font-size: xxx-large;
+        margin-left: 19rem;
+    }
+
+    .cont-five h5{
+        font-size: 2rem;
+    margin-left: 150px;
+    }
+    
+
+    .cont-five i{
+        margin-left: 5rem;
+        font-size: xx-large;
+    }
+
+    .cont-five h4{
+        margin-left: 6rem;
+        font-size: xx-large;
+    }
+
+    .cont-five p{    
+        margin-left: 500px
+    }
+
+    .ban-four .one {
+        margin-left: 300px;
+        height: 350px;
+        width: 650px;
+    }
 
     .ban-four .two {
-        width: 490px;}
+        margin-left: 300px;
+        height: 350px;
+        width: 650px;
+    }
 
+    .ban-five {flex-direction: column;
+        margin-left: 350px;
+    }
 
+    .ban-five .one {
+        height: 300px;
+        width: 500px;
+    }
 
-    /* .bg {
+    .ban-five .two {
+        height: 300px;
+        width: 500px;
+    }
+
+    .ban-five .three {
+        height: 300px;
+        width: 500px;
+    }
+
+    .ban-six {
+        height: 150px;
         width: 80rem;
+    }
+
+    .ban-six .mat2{
+        margin-left: 700px;
+
+    }
+
+    .footer {
+        width: 80rem;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/* 0rem;
     }
 
     .cont-one {
@@ -1352,4 +1513,4 @@ th {
 
         width: 583px;
     } */
-}
+} */
